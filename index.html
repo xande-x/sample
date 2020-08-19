@@ -2,6 +2,16 @@
 <html>
 <head>
 	<title>Your name is..</title>
+	<script type="text/javascript">
+		var person = prompt("Please enter your name", "Harry Potter");
+
+if (person == null || person == "") {
+  txt = "You cancelled the prompt.";
+} else {
+  txt = "Hello " + person + "! How are you today?";
+}
+window.alert(txt);
+	</script>
 </head>
 <body>
 
